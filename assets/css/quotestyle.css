@@ -1,0 +1,190 @@
+.quotes-page .conti{
+	width: 1200px;
+	margin: 0 auto;
+}
+.quotes-page .row{
+	margin-left: 0 !important;
+	margin-right: 0 !important;	
+}
+.quotes-page #quote-form-2 .row{
+	display: block;
+}
+.quotes-page #intro #titleside {
+	 background: url(../images/quotes1.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: top center;
+	 text-align: center;
+	 height: 100px;
+	 border: 1px solid black;
+}
+.quotes-page #intro #titleside h1 {
+	 margin: 0 auto;
+	 padding-top: 25px;
+	 font-size: 40px;
+}
+.quotes-page #add-bar{
+	text-align: right;
+	max-width: 1220px;
+	margin: auto;
+	margin-top: 10px;
+}
+.quotes-page #add-bar #qba{
+	font-size: 25px;	
+}
+.quotes-page #add-bar #qba:hover{
+	color: white;	
+}
+.quotes-page #card{
+	width: 378px;
+	height: 400px;
+	background: url(../images/quote-card.jpg);
+}
+.quotes-page .card-body{
+    word-break: break-word;
+ }
+.quotes-page #quote-txt{
+	height:250px;
+	font-size: 23px; 
+	text-align: center;
+	margin-top: 70px;
+}
+.quotes-page #crud-btn {
+	text-align: right;
+	margin-right: 10px;
+}
+.quotes-page #crud-btn a i{
+	font-size: 20px;
+	margin-right: 10px;
+}
+/*add quotes*/
+.quotes-page #add-quote-form{
+	text-align: center;
+}
+.quotes-page #quote-bar{
+	text-align: center;
+	margin:20px 0;
+}
+.quotes-page #quote-bar a{
+	font-size: 23px;
+	text-decoration: none;	
+	color: #292b2c;
+}
+.quotes-page #quote-bar a:hover{
+	color: white;
+}
+.quotes-page #quote{
+	background: url(../images/inputbg.jpg);
+	padding: 10px;
+	border-radius: 10px;
+	resize: none;
+	font-size: 20px;
+	border: none;
+	margin-bottom: 20px;
+	max-width: 577px;
+	height: 300px;
+}
+.quotes-page #quote:focus{
+	outline: none;
+}
+.quotes-page #add{
+	max-width: 577px;
+	font-size: 25px;
+	margin:0 auto;	
+}
+.quotes-page #add:hover{
+	color: white;
+}
+/*add quotes*/
+.quotes-page footer {
+	 color: black;
+	 background:black;
+}
+ .quotes-page footer a {
+	 color: black;
+}
+ .quotes-page footer h4 {
+	 color: #ff5a00;
+}
+ .quotes-page #foot {
+	 text-align: center;
+}
+ .quotes-page #foot #other {
+	 margin: 0;
+}
+ .quotes-page #foot ul {
+	 padding: 0;
+}
+ .quotes-page #foot ul li {
+	 list-style-type: none;
+}
+ .quotes-page #apps {
+	 margin: 15px 0 10px 0;
+}
+ .quotes-page #apps img {
+	 width: 30%;
+	 padding-bottom: 5px;
+}
+ .quotes-page #apps a:hover img {
+	 transform: scale(1.2);
+}
+ .quotes-page #socialm .overlay a {
+	 font-size: 25px;
+	 padding: 5px;
+}
+ .quotes-page footer #socialm div a:hover i {
+	 transform: scale(1.3);
+}
+ .quotes-page #feet {
+	 font-size: 15px;
+	 text-align: center;
+}
+ @media only screen and (min-width: 768px) {
+	 .quotes-page #intro #titleside {
+		 height: 120px;
+	}
+	 .quotes-page #intro #titleside h1 {
+		 font-size: 50px;
+	}	
+	 .quotes-page #apps {
+		 margin-top: 0;
+	}
+}
+ @media only screen and (min-width: 992px) {
+	 .quotes-page #intro #titleside {
+		 height: 150px;
+	}
+	 .quotes-page #intro #titleside h1 {
+		 padding-top: 40px;
+	}
+	 .quotes-page footer {
+		 background: none;
+	}
+	.quotes-page #foot {
+		margin-top: 50px;
+		 padding: 35px 0 0 50px;
+		 background-image: url(../images/quotefoot.jpg);
+		 background-repeat: no-repeat;
+		 height: 275px;
+		 color: white;
+		 text-align: left;
+		 font-size: 20px;
+		 border: 1px solid black;
+	}
+	 .quotes-page #foot a {
+		 color: white;
+	}
+	 .quotes-page #foot a:hover {
+		 color: #ff5a00;
+	}
+	 .quotes-page #foot #apps {
+		 margin: 0;
+	}
+	 .quotes-page #foot #apps #store {
+		 width: 130%;
+	}
+	 .quotes-page #feet {
+		 text-align: left;
+	}
+}
+ 

@@ -1,0 +1,224 @@
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: main;
+    src:url(../fonts/mainfont.ttf);
+}
+@font-face{
+    font-family: second;
+    src:url(../fonts/secondfont.ttf);
+}
+form{
+    padding: 0 20px;
+    font-family: main;
+}
+#logo_place{
+    text-align:  center; 
+}
+#logo_place img{
+    width:80px;    
+}
+#title{
+    text-align: center;
+}
+#title h1{
+    font-family: second;
+}
+#title p{
+    font-family: main;
+    font-size: 18px;
+}
+#upload_img{
+    text-align: center;
+    margin-bottom: 40px;    
+}
+#upload_img img{
+    width: 80px;
+    border-radius: 50%;
+}
+.wrapper{    
+    width: 100%;
+    height:60px;        
+    transform: translate(0%, -50%);
+    overflow: hidden;
+    font-size: 20px; 
+    padding: 0;
+}
+.wrapper input{
+    width:100%;
+    height:100%;
+    color:#000;
+    padding-top:10px;
+    border:none;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+}
+.wrapper label{
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+    width:100%;
+    height:100%;
+    pointer-events: none;
+    border-bottom: 3px solid #efefef;
+}
+.wrapper label:after{
+    content:'';
+    width:100%;
+    height:100%;
+    left:0px;
+    bottom:-3px;
+    border-bottom: 3px solid #ff5a00;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: all .6s ease;
+}
+.wrapper label span{
+    position: absolute;
+    bottom:5px;
+    left:0px;
+    transition: all .6s ease;
+    color:#95a5a6;
+}
+.wrapper input:focus + label span,
+.wrapper input:valid + label span{
+    transform: translateY(-20px);
+    transition: all .6s ease;
+    color:#ff5a00;
+}
+.wrapper input:focus + label:after,
+.wrapper input:valid + label:after{
+    transform: translateX(0%);
+    transition: all .6s ease;   
+}
+#password_area{
+    padding: 0 15px;
+} 
+#form_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+#form_footer button{
+    width: 140px;
+    background: #dc4821 !important;
+    border: 0;
+    border-radius: 4px;
+    font-size: 23px;
+    color: white;
+    padding: 7px;
+}
+#form_footer button:hover{
+    background: #000054 !important; 
+}
+#hr1{
+    display: none;
+}
+#hr2{
+    display: none;
+}
+#alr_acc{
+    padding-top: 13px;
+    margin-left: 5px;
+}
+#alr_acc a{
+    color: #dc4821; 
+    font-size: 18px;
+}
+#alr_acc a:hover{
+    text-decoration: none;  
+    color: #000054 ; 
+}
+@media only screen and (min-width: 768px){
+    body{
+        background: url(../images/log.jpg);
+    }
+    form{
+        padding: 0 10px; 
+    }
+    #form1{
+       /* margin-top: 100px;*/
+    }
+    #form2{
+        margin-top: 20px;
+    }
+    .user_card {       
+        height: 700px;
+        max-width: 578px;
+        padding: 40px 80px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: #ffffff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 5px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #title_signup{
+        display: flex;
+        margin-top: 20px;        
+    }
+    #logo_place img{
+        width:100px;    
+    }
+    #title{
+        text-align: left;
+        padding: 50px 20px;
+    }
+    #upload_img{
+        margin-top: -30px;
+        margin-bottom: 32px;
+    }
+    #logo_place {
+        text-align: left;
+    }
+    #first_inputs{
+        flex-direction: row-reverse;
+    }
+    #password_area{
+        justify-content: space-between;
+    }
+    #form_footer{
+        display: block;
+    }
+    #hr1{
+        display: block;
+        background: #efebe2;
+        margin: 40px 0;
+        border: 1px solid #efebe2;
+        width: 440px;
+        margin-left: -20px;
+    }
+    #hr2{
+        display: block;
+        background: #efebe2;
+        margin: 20px 0;
+        border: 1px solid #efebe2;
+        width: 400px;
+    }
+    #alr_acc{
+        text-align: center;
+    }
+    #alr_acc p{
+        font-size: 20px;
+    }
+    #alr_acc a{
+        font-size: 22px;
+    }
+    #acc_txt{
+        margin-left: -50px;
+    }
+@media only screen and (min-width: 992px){
+
+}
+
+

@@ -1,0 +1,96 @@
+body {
+	 background-image: url(../images/all.jpg);
+	 background-repeat: repeat-y;
+	 background-size: 100%;
+	 font-family: mainfont;
+}
+.container {
+	 max-width: 1300px;
+}
+a:hover {
+	 color: #ff5a00;
+}
+@font-face {
+	 font-family: mainfont;
+	 src: url(../fonts/mainfont.ttf);
+}
+header #navi a:hover img {
+	 transform: scale(1.1);
+}
+#navi {
+	 display: block;
+	 margin: 0;
+	 display: flex;
+}
+#navi ul {
+	 padding: 0;
+	 font-size: 35px;
+	 text-align: right;
+}
+#navi ul li a {
+	 color: black;
+}
+#navi #navbtn {
+	 padding: 0;
+	 border:none;
+}
+#navi button:focus {
+    outline: none;
+}
+  #topnavbar {
+	 display: none;
+}
+#logout_btn{
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+ @media only screen and (min-width: 768px) {
+	  #navi ul li a {
+		 font-size: 30px;
+	}
+	  #topnavbar {
+		 display: block;
+		 background: #353535;
+	}
+	  #topnav ul li a {
+		 font-size: 20px;
+		 margin: 10px 20px 0 0;
+		 color: #a3998b;
+		 padding: 0;
+	}
+	  #topnav ul li #i {
+		 margin: 5px 50px 0 0;
+		 font-size: 30px;
+	}
+	  #topnav ul li #l {
+		 margin-top: 10px;
+	}
+	  #topnav ul li #l:hover {
+		 color: #a3998b;
+		 transform: none;
+		 text-decoration: none;
+	}
+	  #topnav ul li a:hover {
+		 transform: scale(1.2);
+		 color: #ff5a00;
+	}
+	  #topnav ul li a i:hover {
+		 transform: scale(1.1);
+		 color: #ff5a00;
+	}
+	  #sings {
+		 display: none;
+	}
+	  #navi ul li:hover {
+		 transform: scale(1.2);
+	}
+}
+ @media only screen and (min-width: 992px) {
+	  #navi ul li {
+		 padding: 5px 20px;
+	}
+	  #navi ul li a {
+		 font-size: 35px;
+	}
+}

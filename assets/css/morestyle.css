@@ -1,0 +1,189 @@
+ .more-page main .carousel-indicators{
+	margin-bottom:0;
+}
+ .more-page main .carousel-indicators li{
+	background-color: black;
+	opacity:.3;
+}
+ .more-page main #imgside{
+	width:100%;	
+}
+ .more-page main #imgside .carousel-inner img{
+	width:100%;
+}
+ .more-page #all #titleside{
+	background: url(../images/more.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top center;
+	text-align: center;	
+	height: 100px;
+	border: 1px solid black;
+}
+ .more-page #all #titleside h1{
+	margin: 0 auto;
+	padding-top: 25px;
+	font-size: 40px;
+}
+ .more-page #txtside #p1{
+	font-size: 18px;
+	margin-top: 10px;
+}
+ .more-page #txtside #p2{
+	font-size: 18px;
+	margin-top: 20px;
+}
+ .more-page #all #txtside a{
+	color: #ff5a00;
+}
+ .more-page #imgside2{
+	display:none;
+}
+ .more-page #imgside2 img{
+	width: 100%;
+}
+ .more-page #all #txtside a{
+	 color: #ff5a00;
+}
+ .more-page #imgside2 {
+	 display: none;
+}
+ .more-page #imgside2 img {
+	 width: 100%;
+}
+ .more-page #all #txtside #quote {
+	 font-size: 70px;
+	 text-align: center;
+	 margin-bottom: 70px;
+}
+ .more-page #all #txtside #quote img {
+	 width: 80%;
+}
+ .more-page #all #txtside #quote p {
+	 margin: 0;
+}
+ .more-page footer {
+	 color: black;
+}
+ .more-page footer a {
+	 color: black;
+}
+ .more-page footer h4 {
+	 color: #ff5a00;
+}
+ .more-page #foot {
+	 text-align: center;
+}
+ .more-page #foot #other {
+	 margin: 0;
+}
+ .more-page #foot ul {
+	 padding: 0;
+}
+ .more-page #foot ul li {
+	 list-style-type: none;
+}
+ .more-page #apps {
+	 margin: 15px 0 10px 0;
+}
+ .more-page #apps img {
+	 width: 30%;
+	 padding-bottom: 5px;
+}
+ .more-page #apps a:hover img {
+	 transform: scale(1.2);
+}
+ .more-page #socialm .overlay a {
+	 font-size: 25px;
+	 padding: 5px;
+}
+ .more-page footer #socialm div a:hover i {
+	 transform: scale(1.3);
+}
+ .more-page #feet {
+	 font-size: 15px;
+	 text-align: center;
+}
+ @media only screen and (min-width: 768px) {
+	 .more-page #all #titleside {
+		 height: 120px;
+	}
+	 .more-page #all #titleside h1 {
+		 font-size: 50px;
+	}
+	 .more-page #txtside #p1 {
+		 font-size: 24px;
+		 margin-top: 20px;
+	}
+	 .more-page #txtside #p2 {
+		 font-size: 24px;
+	}
+	 .more-page #caro {
+		 display: none;
+	}
+	 .more-page #imgside2 {
+		 display: block;
+	}
+	 .more-page #all #txtside #quote {
+		 font-size: 90px;
+		 text-align: center;
+		 margin-bottom: 70px;
+	}
+	 .more-page #all #txtside #quote img {
+		 width: 60%;
+	}
+	 .more-page #apps {
+		 margin-top: 0;
+	}
+}
+ @media only screen and (min-width: 992px) {
+	 .more-page #all #titleside {
+		 height: 150px;
+	}
+	 .more-page #all #titleside h1 {
+		 padding-top: 40px;
+	}
+	 .more-page #txtside #p1 {
+		 font-size: 30px;
+		 margin-top: 30px;
+	}
+	 .more-page #txtside #p2 {
+		 font-size: 30px;
+	}
+	 .more-page #imgside2 {
+		 margin: 0 50px 0 50px;
+	}
+	 .more-page #all #txtside #quote img {
+		 width: 50%;
+	}
+	 .more-page footer {
+		 background: none;
+	}
+	 .more-page #foot {
+		 background-image: url(../images/morefoot.jpg);
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-position: top center;
+		 height: 250px;
+		 color: black;
+		 font-size: 20px;
+		 border: 1px solid black;
+		 padding-top: 20px;
+	}
+	 .more-page #foot a {
+		 color: black;
+	}
+	 .more-page #foot a:hover {
+		 color: #ff5a00;
+	}
+	 .more-page #foot #apps {
+		 margin: 0;
+	}
+	 .more-page #foot #apps #store {
+		 width: 130%;
+	}
+	 .more-page #feet {
+		 text-align: left;
+	}
+}
+ 

@@ -1,0 +1,185 @@
+.main-page main .carousel-indicators {
+	 margin-bottom: 0;
+}
+ .main-page main .carousel-indicators li {
+	 background-color: black;
+	 opacity: 0.3;
+}
+ .main-page main #imgside {
+	 width: 100%;
+}
+ .main-page main #imgside .carousel-inner img {
+	 width: 100%;
+}
+ .main-page #intro {
+	 text-align: center;
+}
+ .main-page #intro h1 {
+	 color: #ff5a00;
+	 font-size: 40px;
+}
+ .main-page #intro p {
+	 font-size: 25px;
+	 margin: 0;
+	 padding-bottom: 25px;
+}
+ .main-page #allP {
+	 padding: 0;
+}
+ .main-page #firstP #pside {
+	 padding: 25px 0 25px 0;
+	 text-align: center;
+}
+ .main-page #firstP p {
+	 font-size: 20px;
+}
+ .main-page #firstP h1 {
+	 font-size: 40px;
+}
+ .main-page #secondP #pside {
+	 text-align: center;
+	 padding: 25px 0 25px 0;
+}
+ .main-page #secondP p {
+	 font-size: 22px;
+}
+ .main-page #secondP h1 {
+	 font-size: 40px;
+}
+ .main-page #thirdP #pside {
+	 padding-top: 30px;
+	 text-align: center;
+}
+ .main-page #thirdP #pside #dedi {
+	 font-size: 40px;
+}
+ .main-page #thirdP #imgside img {
+	 width: 100%;
+}
+ .main-page #thirdP p {
+	 font-size: 20px;
+}
+ .main-page #fourthP {
+	 padding: 40px 0 50px 0;
+	 text-align: center;
+}
+ .main-page #fourthP h1 {
+	 font-size: 40px;
+	 padding-bottom: 20px;
+}
+ .main-page #fourthP p {
+	 font-size: 20px;
+}
+ .main-page footer {
+	 color: black;
+}
+ .main-page footer a {
+	 color: black;
+}
+ .main-page footer h4 {
+	 color: #ff5a00;
+}
+ .main-page #foot {
+	 text-align: center;
+}
+ .main-page #foot #other {
+	 margin: 0;
+}
+ .main-page #foot ul {
+	 padding: 0;
+}
+ .main-page #foot ul li {
+	 list-style-type: none;
+}
+ .main-page #apps {
+	 margin: 15px 0 10px 0;
+}
+ .main-page #apps img {
+	 width: 30%;
+	 padding-bottom: 5px;
+}
+ .main-page #apps a:hover img {
+	 transform: scale(1.2);
+}
+ .main-page #socialm .overlay a {
+	 font-size: 25px;
+	 padding: 5px;
+}
+ .main-page footer #socialm div a:hover i {
+	 transform: scale(1.3);
+}
+ .main-page #feet {
+	 font-size: 15px;
+	 text-align: center;
+}
+ @media only screen and (min-width: 768px) {
+	 .main-page #intro {
+		 padding-top: 20px;
+	}
+	 .main-page #apps {
+		 margin-top: 0;
+	}
+}
+ @media only screen and (min-width: 992px) {
+	 .main-page #intro {
+		 background-image: url(../images/sadh.png);
+		 background-position: 50%;
+		 background-repeat: no-repeat;
+		 height: 453px;
+		 text-align: left;
+		 padding: 0;
+	}
+	 .main-page #introtxt {
+		 width: 400px;
+		 margin-left: 70px;
+		 padding-top: 70px;
+	}
+	 .main-page #intro p {
+		 color: white;
+	}
+	 .main-page #firstP {
+		 margin: 150px 50px 0 50px;
+	}
+	 .main-page #secondP {
+		 margin: 150px 50px 0 50px;
+		 flex-direction: row-reverse;
+	}
+	 .main-page #thirdP {
+		 margin: 150px 50px 0 50px;
+	}
+	 .main-page #fourthP {
+		 margin: 150px 150px 100px 150px;
+	}
+	 .main-page #fourthP h1 {
+		 font-size: 50px;
+		 padding-bottom: 30px;
+	}
+	 .main-page #fourthP p {
+		 font-size: 27px;
+	}
+	 .main-page #foot {
+		 padding: 120px 0 0 50px;
+		 background-image: url(../images/sadhfoot.png);
+		 background-repeat: no-repeat;
+		 height: 400px;
+		 color: #a3998b;
+		 text-align: left;
+		 font-size: 20px;
+	}
+	 .main-page #foot a {
+		 color: #a3998b;
+	}
+	 .main-page #foot a:hover {
+		 color: #ff5a00;
+	}
+	 .main-page #foot #apps {
+		 margin: 0;
+	}
+	 .main-page #foot #apps #store {
+		 width: 130%;
+	}
+	 .main-page #feet {
+		 text-align: left;
+	}
+}
+ 

@@ -1,0 +1,15 @@
+<?php
+    session_start();
+
+    $user="root";
+    $pass="root1234";
+    $server="127.0.0.1";
+    $dbname="phpdigitalschool";
+
+    try {
+        $conn =new PDO("mysql:host=$server;dbname=$dbname",$user,$pass);
+    } catch (PDOException $e) {
+        echo "error: " . $e->getMessage();
+    }
+
+?>

@@ -1,0 +1,201 @@
+.yoga-page #intro{
+	 text-align: center;
+}
+ .yoga-page #intro h1{
+	 color: #2b2621;
+	 font-size: 40px;
+}
+ .yoga-page #intro p{
+	 color: #aa6201;
+	 font-size: 25px;
+}
+ .yoga-page #firstP {
+	 margin-top: 30px;
+	 text-align: center;
+	 color: #3a3128;
+}
+ .yoga-page #firstP img {
+	 width: 100%;
+}
+ .yoga-page #firstP p {
+	 font-size: 20px;
+}
+ .yoga-page #firstP h1 {
+	 font-size: 40px;
+}
+ .yoga-page #secondP {
+	 margin-top: 30px;
+	 text-align: center;
+	 color: #3a3128;
+}
+ .yoga-page #secondP img {
+	 width: 100%;
+	 margin-bottom: 20px;
+}
+ .yoga-page #secondP p {
+	 font-size: 20px;
+}
+ .yoga-page #secondP h1 {
+	 font-size: 40px;
+}
+ .yoga-page #thirdP {
+	 text-align: center;
+	 margin: 50px 0 100px 0;
+	 color: #3a3128;
+}
+ .yoga-page #thirdP #pside img {
+	 width: 80%;
+	 margin: 20px 0 20px 0;
+}
+ .yoga-page #thirdP #pside h1 {
+	 margin: 0;
+}
+ .yoga-page #thirdP #pside p {
+	 font-size: 22px;
+}
+ .yoga-page #thirdP #pside a {
+	 color: #ff5a00;
+}
+ .yoga-page #thirdP #y1 {
+	 position: relative;
+	 margin: 0 auto;
+	 width: 100%;
+}
+ .yoga-page #y1 img {
+	 vertical-align: middle;
+}
+ .yoga-page #y1 #content {
+	 position: absolute;
+	 bottom: 0;
+	 background: rgba(43, 38, 33, .6);
+	 width: 100%;
+	 padding: 20px;
+}
+ .yoga-page #y1 #content h1 {
+	 color: #ff5a00;
+	 font-size: 30px;
+}
+ .yoga-page #y1 #content p {
+	 color: #ff5a00;
+	 font-size: 18px;
+	 display: none;
+}
+ .yoga-page footer {
+	 color: black;
+}
+ .yoga-page footer a {
+	 color: black;
+}
+ .yoga-page footer h4 {
+	 color: #ff5a00;
+}
+ .yoga-page #foot {
+	 text-align: center;
+}
+ .yoga-page #foot #other {
+	 margin: 0;
+}
+ .yoga-page #foot ul {
+	 padding: 0;
+}
+ .yoga-page #foot ul li {
+	 list-style-type: none;
+}
+ .yoga-page #apps {
+	 margin: 15px 0 10px 0;
+}
+ .yoga-page #apps img {
+	 width: 30%;
+	 padding-bottom: 5px;
+}
+ .yoga-page #apps a:hover img {
+	 transform: scale(1.2);
+}
+ .yoga-page #socialm .overlay a {
+	 font-size: 25px;
+	 padding: 5px;
+}
+ .yoga-page footer #socialm div a:hover i {
+	 transform: scale(1.3);
+}
+ .yoga-page #feet {
+	 font-size: 15px;
+	 text-align: center;
+}
+ @media only screen and (min-width: 768px) {
+	 .yoga-page #intro {
+		 padding-top: 20px;
+	}
+	 .yoga-page #thirdP #pside img {
+		 width: 50%;
+	}
+	 .yoga-page #thirdP #pside p {
+		 font-size: 35px;
+	}
+	 .yoga-page #y1 #content p {
+		 display: block;
+	}
+	 .yoga-page #apps {
+		 margin-top: 0;
+	}
+}
+ @media only screen and (min-width: 992px) {
+	 .yoga-page #intro {
+		 background-image: url(../images/yoga.png);
+		 background-position: 50%;
+		 background-repeat: no-repeat;
+		 height: 453px;
+	}
+	 .yoga-page #intro #introtxt {
+		 padding: 80px 0 0 35px;
+		 max-width: 600px;
+	}
+	 .yoga-page #firstP {
+		 margin: 150px 50px 0 50px;
+	}
+	 .yoga-page #secondP {
+		 margin: 150px 50px 0 50px;
+		 flex-direction: row-reverse;
+	}
+	 .yoga-page #thirdP {
+		 margin: 150px 0 150px 0;
+	}
+	 .yoga-page #thirdP #pside img {
+		 width: 35%;
+		 margin: 50px 0 50px 0;
+	}
+	 .yoga-page #thirdP #pside h1 {
+		 font-size: 50px;
+	}
+	 .yoga-page #thirdP #pside p {
+		 font-size: 40px;
+	}
+	 .yoga-page #thirdP #imgside img {
+		 max-width: 1300px;
+	}
+	 .yoga-page #foot {
+		 padding: 120px 0 0 50px;
+		 background-image: url(../images/yogafoot.png);
+		 background-repeat: no-repeat;
+		 height: 400px;
+		 color: black;
+		 text-align: left;
+		 font-size: 20px;
+	}
+	 .yoga-page #foot a {
+		 color: black;
+	}
+	 .yoga-page #foot a:hover {
+		 color: #ff5a00;
+	}
+	 .yoga-page #foot #apps {
+		 margin: 0;
+	}
+	 .yoga-page #foot #apps #store {
+		 width: 130%;
+	}
+	 .yoga-page #feet {
+		 text-align: left;
+	}
+}
+ 
